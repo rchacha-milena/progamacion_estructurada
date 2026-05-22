@@ -1,1 +1,22 @@
-
+Algoritmo  El paseo 
+Definir CuotaRequerida como Numero
+Defenir Nombre del estudiante como texto
+Definir TienePermiso como boleto 
+Definir CuotaPagada como Numero 
+Asignar cuotaRequeria = //
+Escribir "Ingrese el nombre del estudiante"
+leer NombreEstudiante 
+  Escribir "¿el estudiante cuenta con el permiso Firmado = (si/no)
+Si RespustaPermiso es "si"  entonces 
+TienePermiso =Verdadero 
+sino
+TienePermiso = Falso 
+FinSi
+Escribir "ingrese el monto de la cuota pagada:"
+//CONDICION CRITICA : Deben cumplirse AMBAS Condiciones 
+si (TienePermiso == Verdadero) y ( cuota pagada >= CuataRequerida) Entonces
+Escribir " felicidades NombreEstudiante puedes ir al paseo "
+SiNo 
+Escribir " lo siento no cumples con todos los requisitos "
+FinSi
+FinalAgoritmo 
